@@ -32,10 +32,10 @@ CREATE TABLE IF NOT EXISTS `application_master` (
 --
 
 INSERT INTO `application_master` (`ApplicationId`, `JobSeekId`, `JobId`, `Status`, `Description`) VALUES
-(1, 3, 1, 'Call Latter Send', 'Invited on 21-Dec-2013.'),
-(2, 3, 2, 'Call Latter Send', 'You are Invited For Interview on 10-MAR-2013.'),
-(3, 3, 3, 'Call Latter Send', 'Invited on 21-Dec-2013.'),
-(5, 3, 4, 'Call Latter Send', 'Invited on 21-Dec-2013.');
+(1, 3, 1, 'Call Latter Send', 'Invited on 21-Dec-2020.'),
+(2, 3, 2, 'Call Latter Send', 'You are Invited For Interview on 10-MAR-2020.'),
+(3, 3, 3, 'Call Latter Send', 'Invited on 21-Dec-2020.'),
+(5, 3, 4, 'Call Latter Send', 'Invited on 21-Dec-2020.');
 
 -- --------------------------------------------------------
 
@@ -89,10 +89,10 @@ CREATE TABLE IF NOT EXISTS `feedback` (
 --
 
 INSERT INTO `feedback` (`FeedbackId`, `JobSeekId`, `Feedback`, `FeedbakDate`) VALUES
-(5, 3, 'asdad', '2018-09-13'),
-(6, 3, 'asd', '2013-09-18'),
-(7, 4, 'Thanks For Your Support.', '2013-09-18'),
-(8, 3, 'asd', '2013-09-22');
+(5, 3, 'asdad', '2020-09-13'),
+(6, 3, 'asd', '2020-09-18'),
+(7, 4, 'Thanks For Your Support.', '2020-09-18'),
+(8, 3, 'asd', '2020-09-22');
 
 -- --------------------------------------------------------
 
@@ -150,10 +150,10 @@ CREATE TABLE IF NOT EXISTS `jobseeker_reg` (
 --
 
 INSERT INTO `jobseeker_reg` (`JobSeekId`, `JobSeekerName`, `Address`, `City`, `Email`, `Mobile`, `Qualification`, `Gender`, `BirthDate`, `Resume`, `Status`, `UserName`, `Password`, `Question`, `Answer`) VALUES
-(3, 'Jalpa Prajapati', 'Near Dena Bank', 'Mehsana', 'jalpa@gmail.com', 9898989898, 'M.C.A', 'Female', '2013-09-10', 'Marksheet.pdf', 'Confirm', 'jalpa', 'jalpa', 'What is Your Pet Name?', 'jalpa'),
-(4, 'Krunal Prajapati', 'Patan', 'Patan', 'krunal@gmail.com', 8989898989, 'M.B.A', 'Male', '2013-09-16', 'Marksheet.pdf', 'Confirm', 'krunal', 'krunal', '', ''),
-(5, 'Gopal Patel', 'Patan', 'Patan', 'gopal@gmail.com', 9898989898, 'MA', 'Male', '2013-10-15', 'admin.jpg', 'Confirm', 'gopal', 'gopal', '', ''),
-(6, 'Mehul Mistry', 'Swastik SOciety', 'Baroda', 'mehul@gmail.com', 8989898998, 'BE', 'Male', '2013-10-09', '470X310_1.jpg', 'Confirm', 'mehul', 'mehul', 'What is Your Pet Name?', 'mehu');
+(3, 'Jalpa Prajapati', 'Near Dena Bank', 'Mehsana', 'jalpa@gmail.com', 9898989898, 'M.C.A', 'Female', '2020-09-10', 'Marksheet.pdf', 'Confirm', 'jalpa', 'jalpa', 'What is Your Pet Name?', 'jalpa'),
+(4, 'Krunal Prajapati', 'Patan', 'Patan', 'krunal@gmail.com', 8989898989, 'M.B.A', 'Male', '2020-09-16', 'Marksheet.pdf', 'Confirm', 'krunal', 'krunal', '', ''),
+(5, 'Gopal Patel', 'Patan', 'Patan', 'gopal@gmail.com', 9898989898, 'MA', 'Male', '2020-10-15', 'admin.jpg', 'Confirm', 'gopal', 'gopal', '', ''),
+(6, 'Mehul Mistry', 'Swastik SOciety', 'Baroda', 'mehul@gmail.com', 8989898998, 'BE', 'Male', '2020-10-09', '470X310_1.jpg', 'Confirm', 'mehul', 'mehul', 'What is Your Pet Name?', 'mehu');
 
 -- --------------------------------------------------------
 
@@ -199,8 +199,8 @@ CREATE TABLE IF NOT EXISTS `news_master` (
 --
 
 INSERT INTO `news_master` (`NewsId`, `News`, `NewsDate`) VALUES
-(1, 'Register and Get JOB', '2013-09-24'),
-(2, 'New Vacancies will be updated after diwali', '2013-10-31');
+(1, 'Register and Get JOB', '2020-09-24'),
+(2, 'New Vacancies will be updated after diwali', '2020-10-31');
 
 -- --------------------------------------------------------
 
@@ -246,5 +246,5 @@ CREATE TABLE IF NOT EXISTS `walkin_master` (
 --
 
 INSERT INTO `walkin_master` (`WalkInId`, `CompanyName`, `JobTitle`, `Vacancy`, `MinQualification`, `Description`, `InterviewDate`, `InterviewTime`) VALUES
-(1, 'Wipro Infotech', 'Freshers Required', 5, 'B.C.A', 'Hardworking Person are Required.', '2013-09-25', '09:00:00'),
-(2, 'TCS Private Limited', 'Marketive Representative Invited', 2, 'Pharmacist', 'Ready TO work in North Gujarat', '2013-10-07', '09:00:00');
+(1, 'Wipro Infotech', 'Freshers Required', 5, 'B.C.A', 'Hardworking Person are Required.', '2020-09-25', '09:00:00'),
+(2, 'TCS Private Limited', 'Marketive Representative Invited', 2, 'Pharmacist', 'Ready TO work in North Gujarat', '2020-10-07', '09:00:00');
