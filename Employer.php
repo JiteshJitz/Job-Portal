@@ -48,13 +48,13 @@ include "menu.php"
             <p id="breadcrumbs">&nbsp;</p>
           <hr class="noscreen" />
             
-        </div> <!-- /strip -->
+        </div> 
 
         <!-- Content -->
         <div id="content">
 
            
-            <!-- /article -->
+            
 
             <hr class="noscreen" />
 
@@ -63,9 +63,7 @@ include "menu.php"
 
             <hr class="noscreen" />
             
-            <!-- Article -->
-           
-            <!-- /article -->
+            
 
             <hr class="noscreen" />
 
